@@ -1,5 +1,5 @@
 body {
-  background-color: violet;
+  background-color: violet; /*Puse este color para cuando no se cumplen las restricciones de tamaño de pantalla, es decir, la pantalla es menor a 425px*/
 }
 
 img {
