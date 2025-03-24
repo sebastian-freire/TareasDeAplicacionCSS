@@ -1,5 +1,5 @@
 body {
-  background-color: red;
+  background-color: violet;
 }
 
 img {
@@ -12,7 +12,19 @@ p {
   font-size: 24px;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 425px) {
+  body {
+    background-color: blue;
+  }
+  p {
+    font-size: 14px;
+  }
+  img {
+    width: 100vw;
+  }
+}
+
+@media (min-width: 768px) {
   body {
     background-color: green;
   }
@@ -24,14 +36,14 @@ p {
   }
 }
 
-@media (max-width: 425px) {
+@media (min-width: 1440px) {
   body {
-    background-color: blue;
+    background-color: red;
   }
   p {
-    font-size: 14px;
+    font-size: 18px;
   }
   img {
-    width: 100vw;
+    width: 70vw;
   }
 }

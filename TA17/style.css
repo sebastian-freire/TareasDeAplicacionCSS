@@ -8,17 +8,15 @@ body {
   background-color: black;
 }
 
-#tarjeta {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.tarjeta {
   background-color: rgb(189, 129, 199);
   width: 300px;
   padding: 20px;
   border-radius: 1%;
   position: relative;
 }
-#avatar {
+
+.avatar {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -26,7 +24,7 @@ body {
   border-radius: 50%;
 }
 
-#contenido {
+.contenido {
   text-align: center;
-  padding-top: 80px;
+  margin-top: 105px;
 }
